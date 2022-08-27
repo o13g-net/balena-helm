@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  openbalena:
+  - apiVersion: v2
+    appVersion: v3.7.2
+    created: "2022-08-27T13:19:49.344327697Z"
+    description: openBalena kubernetes Chart
+    digest: dcd75ade8ff43695b17fa8c5972a56130aff8f087cadac3c50e547a0a1294b71
+    keywords:
+    - balena
+    - openbalena
+    maintainers:
+    - email: bartv@nexelit.io
+      name: bartversluijs
+    name: openbalena
+    type: application
+    urls:
+    - https://github.com/o13g-net/balena-helm/releases/download/openbalena-1.3.4/openbalena-1.3.4.tgz
+    version: 1.3.4
+generated: "2022-08-27T13:19:49.344332696Z"
