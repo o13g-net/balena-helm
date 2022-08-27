@@ -32,6 +32,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: {{ include "openbalena.fullname" . }}-internal-tunnel
+            name: {{ include "openbalena.fullname" . }}-vpn
             port:
               number: 3128
